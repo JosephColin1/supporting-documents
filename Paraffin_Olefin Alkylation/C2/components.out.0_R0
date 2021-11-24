@@ -1,0 +1,5 @@
+%% --- Component Definitions
+C2H4 : 2 : 0 : "C(H2)C(H2)";
+C3H6 : 3 : 0 : "C(C(H2)C(H3)H)";
+H : 1 : 0 : "(H+)";
+CCH5 : 4 : 0 : "C(H3)C+(H2)";
