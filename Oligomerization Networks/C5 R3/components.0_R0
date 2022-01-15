@@ -1,0 +1,17 @@
+%% --- Component Definitions
+C2H4 : 2 : 0 : "C(H2)C(H2)";
+C4H8 : 6 : 1 : "C(C(H2)H)C(C(H3)H2)";
+C4H8 : 8 : 1 : "C(C(H3)H)C(C(H3)H)";
+C4H10 : 10 : 2 : "C(C(H3)C(H3)C(H3)H)";
+C4H8 : 13 : 1 : "C(C(H2)C(H3)C(H3))";
+C4H6 : 15 : 2 : "C(C(H2)H)C(C(H2)H)";
+H : 1 : 0 : "(H+)";
+CCH5 : 3 : 0 : "C(H3)C+(H2)";
+C3CH9 : 4 : 0 : "C(C(H3)H2)C(C+(H2)H2)";
+C3CH9 : 5 : 0 : "C(C(H3)H2)C+(C(H3)H)";
+C3CH9 : 7 : 0 : "C(C(H3)C(H3)C+(H2)H)";
+C3CH9 : 9 : 0 : "C+(C(H3)C(H3)C(H3))";
+C3CH7 : 11 : 1 : "C(C(H2)H)C+(C(H3)H)";
+C3CH7 : 12 : 1 : "C(C(H2)H)C(C+(H2)H2)";
+C3CH7 : 14 : 1 : "C(C(H3)H)C(C+(H2)H)";
+C3CH7 : 16 : 1 : "C(C(H2)C(H3)C+(H2))";
