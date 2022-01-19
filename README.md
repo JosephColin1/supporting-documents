@@ -1,13 +1,22 @@
-# supporting-documents
-Supporting documents for the following paper - Catalytic conversion of alkenes on acidic zeolites: Automated generation of reaction mechanisms and lumping technique 
+This repository contains a library of reaction networks for alkene transformations on acidic zeolites. The construction, automated generation, and characteristics of the reaction networks is extensively described in the paper: “Catalytic conversion of alkenes on acidic zeolites: Automated generation of reaction mechanisms and lumping technique” (authors: Elsa Koninckx, Joseph G. Colin, Linda J. Broadbelt and Sergio Vernuccio).
 
-All documents should be downloaded for use. Each sub-folder contains the following files:
-Components.0_R0
-Reactions.txt
+The networks of the library are catalogued in three broad groups:
 
-Most files contain the following file (ommitted from networks too large to generate visually via Cytoscape):
-Network.cys
+(i)                 Oligomerization
 
-Components.0_R0 contains a list of all molecular species and intermediate carbenium ions in a network. 
-Reactions.txt contans a list of all reactions occuring in the network including reactants, products, reaction enthaply, SMILE formula and reaction family.
-Network.cys is a downloadable file which can be opened via the software Cytoscape (https://cytoscape.org/). This contains a visual reaction network. 
+(ii)                Alkylation
+
+(iii)               Cyclization and Aromatization
+
+Each network has been indicated by using the expression Ci  Rj where Ci represents the carbon termination criterion (the maximum carbon number of the species allowed to react), and Rj represents the rank termination criterion (the maximum rank of the species allowed to react).
+
+Each folder contains the following files:
+
+  Components.0_R0: A list of all molecular species and protonated intermediates included in the network
+  Reactions.txt:  A list of all reactions occurring in the network including reactants, products, reaction enthalpy, and reaction family
+
+Most folders contains the following files (exceptions are found for considerably large networks in which visual network generation was deemed unneccesary and the Components.0_R0 and Reactions.txt files suffice):
+
+  Network.cys: A visual reaction network that can be opened via the software Cytoscape (https://cytoscape.org/).
+
+All documents should be downloaded for use. 
