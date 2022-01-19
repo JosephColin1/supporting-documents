@@ -12,11 +12,11 @@ Each network has been indicated by using the expression Ci  Rj where Ci represen
 
 Each folder contains the following files:
 
-  Components.0_R0: A list of all molecular species and protonated intermediates included in the network
-  Reactions.txt:  A list of all reactions occurring in the network including reactants, products, reaction enthalpy, and reaction family
+  - Components.0_R0: A list of all molecular species and protonated intermediates included in the network
+  - Reactions.txt:  A list of all reactions occurring in the network including reactants, products, reaction enthalpy, and reaction family
 
 Most folders contains the following files (exceptions are found for considerably large networks in which visual network generation was deemed unneccesary and the Components.0_R0 and Reactions.txt files suffice):
 
-  Network.cys: A visual reaction network that can be opened via the software Cytoscape (https://cytoscape.org/).
+  - Network.cys: A visual reaction network that can be opened via the software Cytoscape (https://cytoscape.org/).
 
 All documents should be downloaded for use. 
